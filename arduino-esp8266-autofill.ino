@@ -328,10 +328,8 @@ bool manualStart = false;
 #define CHECK_PRESSURE_INTERVAL_SEC 30
 
 //Время паузы / работы
-#define PAUSE_TIME_SEC 10
-//300
-#define WORK_TIME_SEC 10
-//60
+#define PAUSE_TIME_SEC 300
+#define WORK_TIME_SEC 60
 
 uint16_t checkPressureTime = CHECK_PRESSURE_INTERVAL_SEC;
 uint16_t pauseTimer = CHECK_PRESSURE_INTERVAL_SEC;
